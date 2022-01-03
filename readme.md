@@ -8,6 +8,7 @@
 ### Адреса API
 
 GET /api/v1/generator/get/?id=1
+
 POST /api/v1/generator/new
 
 ### Включение debug режима для более удобной отладки:
