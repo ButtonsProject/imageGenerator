@@ -12,6 +12,7 @@ def print_text(draw_image, position, lines, color, font):
     for i in range(len(lines)):
         create_text(draw_image, (left_side, top_side), lines[i], color, font)
         top_side += font.size * 5 // 4
+    return top_side
 
 def crop_text(text, word_constraint_down, word_constraint_up):
     words = text.split(' ')

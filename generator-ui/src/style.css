@@ -1,0 +1,57 @@
+.main-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input-field{
+    width: 100%;
+    font-size: 1em;
+    font-weight: 400;
+    font-style: normal;
+    color: rgba(0,0,0,.87);
+    border: 1px solid #000000;
+    box-sizing: border-box;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+.input-container textarea{
+    resize: vertical;
+}
+.input-field label{
+    display: flex;
+    align-items: center;
+    letter-spacing: 1px;
+
+    color: #000000;
+    overflow: hidden;
+}
+
+.button{
+    background: #FFFFFF;
+    border: 1px solid #FF7500;
+    box-sizing: border-box;
+    border-radius: 45px;
+}
+
+.button label{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 1px;
+
+    color: #FF7500;
+}
+
+.form-container{
+    padding: 5px;
+}
+
+h1{
+    color: #00AA13;
+}
