@@ -13,3 +13,5 @@ POST /api/v1/generator/new
 
 ### Включение debug режима для более удобной отладки:
 Задайте значение True параметру DEBUG, в файле skbImageGeneratorApi\settings.py
+
+### [Краткая документация](docs.md)
